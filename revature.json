@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/Lab/Controller/SampleControllerTest.java",
+      "testCases": [
+        {
+          "methodName": "testGetPathVariable",
+          "label": "Verify GET endpoint correctly returns path variable",
+          "description": "Sends a GET request with a path variable and verifies that the controller returns a 200 OK status along with the expected path variable value in the response body."
+        },
+        {
+          "methodName": "testPostSample",
+          "label": "Verify POST endpoint returns submitted JSON object",
+          "description": "Sends a POST request with a JSON request body and checks that the controller returns a 200 OK response along with the same JSON object in the response body."
+        }
+      ]
+    }
+  ]
+}
